@@ -282,7 +282,7 @@
 //                 <div className="form-group">
 //                   <label>Phone</label>
 //                   <input
-//                     type="text"
+//                     type="number"
 //                     className="form-control"
 //                     required=""
 //                     name="phone"
@@ -355,7 +355,7 @@
 //                 <div className="form-group">
 //                   <label>Phone</label>
 //                   <input
-//                     type="text"
+//                     type="number"
 //                     className="form-control"
 //                     required=""
 //                     name="phone"
@@ -745,7 +745,7 @@ const CrudFunctions = () => {
                 <div className="form-group">
                   <label>Phone</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="phone"
                     onChange={formik.handleChange}
@@ -831,7 +831,7 @@ const CrudFunctions = () => {
                 <div className="form-group">
                   <label>Phone</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="phone"
                     onChange={formik.handleChange}
