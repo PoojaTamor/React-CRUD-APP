@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg  shadow-lg">
     <div className="container">
       <a href="#" className="navbar-brand col-6">
-        <img src="/updated_image_hex.png" alt="" />
+        <img src="/logo.png" alt="" />
       </a>
       <button
         className="navbar-toggler"
