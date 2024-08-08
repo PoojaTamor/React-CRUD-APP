@@ -522,6 +522,7 @@ const CrudFunctions = () => {
           .then(() => {
             toast.success(`${values.name} is edited successfully`);
             setEditUser(null);
+      window.$('#editEmployeeModal').modal('hide');
             getdata();
           });
       } else {
@@ -602,12 +603,13 @@ const CrudFunctions = () => {
             <table className="table table-striped table-hover">
               <thead>
                 <tr>
-                  <th>
+               <th>
                     <span className="custom-checkbox">
                       <input type="checkbox" id="selectAll" />
                       <label htmlFor="selectAll" />
                     </span>
                   </th>
+                  {/* <th>Sr.NO</th> */}
                   <th>Name</th>
                   <th>Email</th>
                   <th>Address</th>
@@ -629,6 +631,7 @@ const CrudFunctions = () => {
                         <label htmlFor={`checkbox${i}`} />
                       </span>
                     </td>
+                    {/* <td>{i+1}</td> */}
                     <td>{data.name}</td>
                     <td>{data.email}</td>
                     <td>{data.address}</td>
@@ -876,9 +879,9 @@ const CrudFunctions = () => {
                     <p className="text-warning">
                       <small>This action cannot be undone.</small>
                     </p>
-                    <p>
+                    {/* <p>
                       <b>Id:</b> {deleteUser.id}
-                    </p>
+                    </p> */}
                     <p>
                       <b>Name:</b> {deleteUser.name}
                     </p>
