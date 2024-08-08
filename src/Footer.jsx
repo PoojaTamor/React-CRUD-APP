@@ -32,9 +32,9 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-6 col-md-6 col-lg-3  padding_1x">
                             <h5>Contact Us</h5>
-                            <a href="#">76/A, Green Lane, Dhanmondi, NYC</a>
-                            <a href="#">demomail89@gmail.com</a>
-                            <a href="#">+10 (78) 738-9083</a>
+                            <a href="#">Faridabad</a>
+                            <a href="mailto:poojatamor88@gmail.com">poojatamor88@gmail.com</a>
+                            <a href="tel:+91-8595817193">+91-8595817193</a>
 
                         </div>
                         
